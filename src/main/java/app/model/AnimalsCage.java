@@ -13,7 +13,8 @@ public class AnimalsCage {
 
     @Autowired
     @Qualifier("timer")
-    private final Timer timer = new Timer();
+    private Timer timer;
+
     public Timer getTimer() {
         return timer;
     }
